@@ -12,7 +12,7 @@ protocol FruitsAndBerriesBusinessLogic {
     func loadDetails(request: FruitsAndBerriesModels.LoadDetails.Request)
 }
 
-class FruitsAndBerriesInteractor {
+final class FruitsAndBerriesInteractor {
     
     var presenter: FruitsAndBerriesPresentationLogic?
     var presenterDetails: FruitsAndBerriesDetailsPresentationLogic?

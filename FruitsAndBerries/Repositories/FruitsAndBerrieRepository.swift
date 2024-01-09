@@ -15,7 +15,7 @@ protocol FruitsFetchRepository {
 
 // MARK: Initialization
 
-class FruitsAndBerrieRepository: FruitsFetchRepository {
+final class FruitsAndBerrieRepository: FruitsFetchRepository {
     private let httpClient: HTTPClient
     
     required init() {

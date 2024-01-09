@@ -12,7 +12,7 @@ protocol FruitsAndBerriesDetailsPresentationLogic {
     func presentDetails(response: FruitsAndBerriesModels.LoadDetails.Response)
 }
 
-class FruitsAndBerriesDetailsPresenter {
+final class FruitsAndBerriesDetailsPresenter {
     weak var view: FruitsAndBerriesDetailsDisplayLogic?
 }
 

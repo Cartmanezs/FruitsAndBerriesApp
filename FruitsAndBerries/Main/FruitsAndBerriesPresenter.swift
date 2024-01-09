@@ -12,7 +12,7 @@ protocol FruitsAndBerriesPresentationLogic {
     func presentError(with errorInfo: String)
 }
 
-class FruitsAndBerriesPresenter {
+final class FruitsAndBerriesPresenter {
     weak var view: FruitsAndBerriesDisplayLogic?
 }
 
